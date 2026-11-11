@@ -1,0 +1,33 @@
+region,model,mape_monthly,mape_weekday
+East of England,Prophet,4.52,5.35
+East of England,SARIMA,3.82,4.23
+East of England,Seasonal naive,6.19,7.58
+East of England,Seasonal naive + growth,1.39,3.24
+England,Prophet,4.12,4.68
+England,SARIMA,2.01,2.56
+England,Seasonal naive,4.22,5.37
+England,Seasonal naive + growth,1.58,2.86
+London,Prophet,2.45,3.21
+London,SARIMA,2.4,2.63
+London,Seasonal naive,4.32,5.38
+London,Seasonal naive + growth,1.83,3.18
+Midlands,Prophet,3.95,4.63
+Midlands,SARIMA,4.82,5.79
+Midlands,Seasonal naive,5.21,6.51
+Midlands,Seasonal naive + growth,1.63,3.21
+North East and Yorkshire,Prophet,3.89,4.52
+North East and Yorkshire,SARIMA,3.18,3.64
+North East and Yorkshire,Seasonal naive,3.6,4.85
+North East and Yorkshire,Seasonal naive + growth,1.6,3.23
+North West,Prophet,3.56,4.28
+North West,SARIMA,3.2,3.61
+North West,Seasonal naive,3.78,5.13
+North West,Seasonal naive + growth,1.71,3.54
+South East,Prophet,3.75,4.77
+South East,SARIMA,3.97,2.74
+South East,Seasonal naive,3.2,4.25
+South East,Seasonal naive + growth,1.77,3.15
+South West,Prophet,4.09,5.02
+South West,SARIMA,5.08,3.34
+South West,Seasonal naive,3.25,4.32
+South West,Seasonal naive + growth,1.71,2.92

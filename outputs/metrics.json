@@ -1,0 +1,39 @@
+{
+  "data_from": "2024-03-01",
+  "data_to": "2026-08-31",
+  "origins": [
+    "2025-08-31",
+    "2025-11-30",
+    "2026-02-28",
+    "2026-05-31"
+  ],
+  "horizon_days": 92,
+  "overall_mape": {
+    "Prophet": {
+      "mape_monthly": 3.79,
+      "mape_weekday": 4.56
+    },
+    "SARIMA": {
+      "mape_monthly": 3.56,
+      "mape_weekday": 3.57
+    },
+    "Seasonal naive": {
+      "mape_monthly": 4.22,
+      "mape_weekday": 5.42
+    },
+    "Seasonal naive + growth": {
+      "mape_monthly": 1.65,
+      "mape_weekday": 3.17
+    }
+  },
+  "best_model_by_region": {
+    "East of England": "Seasonal naive + growth",
+    "England": "Seasonal naive + growth",
+    "London": "Seasonal naive + growth",
+    "Midlands": "Seasonal naive + growth",
+    "North East and Yorkshire": "Seasonal naive + growth",
+    "North West": "Seasonal naive + growth",
+    "South East": "Seasonal naive + growth",
+    "South West": "Seasonal naive + growth"
+  }
+}
